@@ -1,16 +1,36 @@
+$pureWhite: #fff;
 
-
-html, body {
+html {
     margin: 0;
     padding:0;
-
-
 }
-#leftPart {
+body {
+    background-image: url('/assets/Untitled.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    width: 30%;
+    width: 100%;
+    //overflow: hidden;   /*DONT FORGET TO CHANGE THIS AT THE END*/
+    
 }
-#rightPart {
-    height: 100vh;
-    width: 70%;
+
+#headerFooter {
+   
+    
+   .nav{
+       a{
+           color: $pureWhite;
+       }
+       a:hover {
+           font-weight: bold;
+       }
+       ul{
+           list-style-type: none;
+           
+           li{
+            display: inline-block;
+               color: $pureWhite;
+           }
+       }
+   }
 }
