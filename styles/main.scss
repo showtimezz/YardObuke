@@ -1,36 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$font: 'Lato', sans-serif;
+
 $pureWhite: #fff;
+
+
+
 
 html {
     margin: 0;
-    padding:0;
+    padding: 0;
+    
+
 }
 body {
-    background-image: url('/assets/Untitled.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    //overflow: hidden;   /*DONT FORGET TO CHANGE THIS AT THE END*/
+   height:100vh;
+   max-width: 100%;
+   background-image: url('/assets/Untitled.png');
+   background-position: center;
+   background-size: cover;
+   font-family: $font;
+}
+#navBar {
+    background-color: transparentize(#000, .4);;
     
+    #img {
+        max-width:220px;
+       // background-color:red;
+        flex-shrink: 0.2;
+        img{
+           
+            width:200px;
+            padding-top: 1.6vh;
+            
+        }
+     }
+     #nav {
+         flex-grow: 2;
+         flex-wrap: nowrap;
+        // background-color:blue;
+         text-align: center;
+         margin: auto;
+         padding-top: 1.6vh;
+         
+         font-size: 1.3em;
+         
+         font-weight: bold;
+         a{
+             
+                color:$pureWhite;
+         }
+         a:hover{
+             font-weight: bold;
+             text-decoration: none;
+         }
+         ul{
+             list-style-type: none;
+             li{
+                padding-left:100px;
+                 display: inline-block;
+             }
+         }
+     }
 }
 
-#headerFooter {
-   
-    
-   .nav{
-       a{
-           color: $pureWhite;
-       }
-       a:hover {
-           font-weight: bold;
-       }
-       ul{
-           list-style-type: none;
-           
-           li{
-            display: inline-block;
-               color: $pureWhite;
-           }
-       }
-   }
-}

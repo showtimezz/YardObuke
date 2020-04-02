@@ -1,30 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 html {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-image: url("/assets/Untitled.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
+  background-image: url("/assets/Untitled.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
 }
 
-#headerFooter .nav a {
-  color: #fff;
+#navBar {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-#headerFooter .nav a:hover {
+#navBar #img {
+  max-width: 220px;
+  -ms-flex-negative: 0.2;
+      flex-shrink: 0.2;
+}
+
+#navBar #img img {
+  width: 200px;
+  padding-top: 1.6vh;
+}
+
+#navBar #nav {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  text-align: center;
+  margin: auto;
+  padding-top: 1.6vh;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
-#headerFooter .nav ul {
+#navBar #nav a {
+  color: #fff;
+}
+
+#navBar #nav a:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navBar #nav ul {
   list-style-type: none;
 }
 
-#headerFooter .nav ul li {
+#navBar #nav ul li {
+  padding-left: 100px;
   display: inline-block;
-  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
