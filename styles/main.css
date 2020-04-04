@@ -7,7 +7,7 @@ html {
 body {
   height: 100vh;
   max-width: 100%;
-  background-image: url("/assets/Untitled.png");
+  background-image: url("../assets/Untitled.png");
   background-position: center;
   background-size: cover;
   font-family: "Lato", sans-serif;
@@ -76,11 +76,11 @@ p {
 
 #jumboTron {
   max-width: 40%;
-  font-size: 4.2vh;
+  font-size: 3.6vh;
   text-align: center;
   margin: auto;
   font-weight: bold;
-  padding-bottom: 2vh;
+  padding-bottom: .8vh;
 }
 
 #prestiz {
@@ -102,12 +102,12 @@ p {
 }
 
 #prednostiPristupa {
-  padding-top: 2vh;
+  padding-top: .6vh;
   padding-bottom: -2vh;
   max-width: 40%;
   text-align: center;
-  margin-bottom: -7vh;
-  font-size: 4vh;
+  margin-bottom: -5vh;
+  font-size: 2.8vh;
   font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ p {
 }
 
 #ikoniceTekst img {
-  max-width: 60vh;
+  max-width: 55vh;
 }
 
 #ikoniceTekst p {
@@ -136,6 +136,7 @@ p {
 }
 
 #footer ul {
+  margin: auto;
   list-style-type: none;
 }
 
@@ -162,7 +163,6 @@ p {
   -ms-flex-item-align: end;
       align-self: flex-end;
   max-width: 2.2vh;
-  background-color: orange;
 }
 
 #footer #dugmad #dugme {
