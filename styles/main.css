@@ -13,19 +13,23 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+p {
+  color: #fff;
+}
+
 #navBar {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 #navBar #img {
-  max-width: 220px;
+  max-width: 22vw;
   -ms-flex-negative: 0.2;
       flex-shrink: 0.2;
 }
 
 #navBar #img img {
-  width: 200px;
-  padding-top: 1.6vh;
+  max-width: 16vw;
+  margin: 20px;
 }
 
 #navBar #nav {
@@ -37,7 +41,7 @@ body {
   text-align: center;
   margin: auto;
   padding-top: 1.6vh;
-  font-size: 1.3em;
+  font-size: 2.11vh;
   font-weight: bold;
 }
 
@@ -51,11 +55,125 @@ body {
 }
 
 #navBar #nav ul {
+  padding-right: 100px;
   list-style-type: none;
 }
 
 #navBar #nav ul li {
   padding-left: 100px;
   display: inline-block;
+}
+
+#introText {
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  max-width: 40%;
+  text-align: center;
+  margin: auto;
+  font-size: 2.11vh;
+  font-weight: bold;
+}
+
+#jumboTron {
+  max-width: 40%;
+  font-size: 4.2vh;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+#prestiz {
+  max-width: 40%;
+  text-align: center;
+  margin: auto;
+  font-size: 2.2vh;
+  font-weight: bold;
+}
+
+#userExperiance {
+  padding-top: 2vh;
+  vertical-align: center;
+  max-width: 32%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.8vh;
+  margin-left: 5%;
+}
+
+#prednostiPristupa {
+  padding-top: 2vh;
+  padding-bottom: -2vh;
+  max-width: 40%;
+  text-align: center;
+  margin-bottom: -7vh;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+#ikoniceTekst {
+  max-width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+#ikoniceTekst img {
+  max-width: 60vh;
+}
+
+#ikoniceTekst p {
+  display: inline-block;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#footer ul {
+  list-style-type: none;
+}
+
+#footer ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer ul a:hover {
+  text-decoration: none;
+}
+
+#footer ul li {
+  font-size: 2vh;
+  margin: 30px;
+  display: inline-block;
+}
+
+#footer #dugmad {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  max-width: 2.2vh;
+  background-color: orange;
+}
+
+#footer #dugmad #dugme {
+  background-color: rgba(0, 128, 128, 0.6);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  margin: 20px;
 }
 /*# sourceMappingURL=main.css.map */
