@@ -64,6 +64,11 @@ p {
   display: inline-block;
 }
 
+#mobileDisplay {
+  display: none;
+  background-image: url("../assets/mobileBG.png");
+}
+
 #introText {
   padding-top: 3vh;
   padding-bottom: 1vh;
@@ -177,7 +182,33 @@ p {
   margin: 20px;
 }
 
+#mobileDugme {
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+
+#mobileDugme #mobileBtn {
+  display: none;
+  vertical-align: center;
+  background-color: rgba(0, 128, 128, 0.5);
+  border: none;
+  color: white;
+  padding: 1.3vh 8vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.4vh;
+  margin: 20px;
+}
+
 /*DESKTOP RESPONSIVENESS */
+@media screen and (max-width: 880px) {
+  #navBar #nav {
+    font-size: 1.5vh;
+  }
+}
+
 @media screen and (max-width: 1680px) {
   #introText {
     font-size: 1.6vh;
@@ -202,15 +233,18 @@ p {
   }
 }
 
-@media screen and (max-width: 1442px) {
+@media screen and (max-width: 1440px) {
   #introText {
-    font-size: 1.6vh;
+    font-size: 2vh;
   }
   #jumboTron {
-    font-size: 3vh;
+    margin-top: -1vh;
+    margin-bottom: -1vh;
+    font-size: 2.8vh;
   }
   #prestiz {
-    font-size: 1.8vh;
+    font-size: 1.7vh;
+    margin-bottom: -1vh;
   }
   #userExperiance {
     font-size: 1.3vhs;
@@ -284,4 +318,77 @@ p {
 
 /*DESKTOP RESPONSIVENESS END*/
 /*MOBILE RESPONSIVENESS*/
+@media screen and (max-width: 800px) {
+  body {
+    background-image: none;
+    background-color: #2a3346;
+    vertical-align: center;
+  }
+  .hide {
+    display: none;
+  }
+  #mobileDisplay {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: 70vh;
+  }
+  #navBar {
+    max-height: 15vmin;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  #navBar #nav ul {
+    visibility: hidden;
+  }
+  #navBar #img img {
+    margin: 20px;
+    max-width: 100vmin;
+    max-height: 8vmin;
+  }
+  #introText {
+    vertical-align: center;
+    text-align: center;
+    max-width: 100vw;
+    font-size: 3vw;
+  }
+  #jumboTron {
+    max-width: 100%;
+    font-size: 4.3vw;
+  }
+  #prestiz {
+    max-width: 100%;
+    font-size: 2.9vw;
+  }
+  #userExperiance {
+    max-width: 100%;
+    font-size: 2.5vw;
+    margin-left: -1vmin;
+  }
+  #prednostiPristupa {
+    max-width: 100%;
+    font-size: 4vw;
+  }
+  #ikoniceTekst img {
+    max-width: 90vw;
+    vertical-align: center;
+    margin-left: -27vw;
+  }
+  #footer {
+    visibility: hidden;
+  }
+  #mobileDugme {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #mobileDisplay {
+    margin-bottom: -10vmax;
+  }
+  #navBar #img img {
+    margin: 10px auto auto auto;
+  }
+}
+
+/*MOBILE RESPONSIVENESS END*/
 /*# sourceMappingURL=main.css.map */
