@@ -110,7 +110,7 @@ p{
     padding-bottom: -2vh;
     max-width: 40%;
     text-align: center;
-    margin-bottom: -5vh;
+    margin-bottom: -3vh;
     font-size: 2.8vh;
     font-weight:bold;
 } 
@@ -174,12 +174,14 @@ p{
     }
     
 }
-@media screen and (max-width:1680) {
+@media screen and (max-width:1680px) {
     #introText{
         font-size: 1.6vh;
+        
     }
     #jumboTron{
         font-size: 3vh;
+        
     }
     #prestiz {
         font-size:2vh;
@@ -197,12 +199,12 @@ p{
         font-size: 1.6vh;
     }
 }
-@media screen and (max-width:1440) {
+@media screen and (max-width:1442px) {
     #introText{
-        font-size: 1.3vh;
+        font-size: 1.6vh;
     }
     #jumboTron{
-        font-size: 2.6vh;
+        font-size: 3vh;
     }
     #prestiz {
         font-size: 1.8vh;
@@ -211,10 +213,67 @@ p{
         font-size: 1.3vhs;
     }
     #prednostiPristupa{
+        margin-bottom: -2vh;
         font-size: 2.2vh
     }
     #ikoniceTekst {
         font-size: 1.8vh;
+    }
+    #footer {
+        font-size: 1.4vh;
+    }
+}
+@media screen and (max-width:1370px) {
+    #introText{
+        font-size: 1.7vh;
+    }
+    #jumboTron{
+        font-size: 2.5vh;
+        //background-color: red;
+        margin-bottom: -1vh;
+        margin-top: -1vh;
+    }
+    #prestiz {
+        font-size: 1.5vh;
+    }
+    #userExperiance {
+        font-size: 1.3vhs;
+    }
+    #prednostiPristupa{
+        margin-bottom: -4vh;
+        font-size: 2.5vh
+    }
+    #ikoniceTekst {
+        font-size: 1.6vh;
+    }
+    #footer {
+        font-size: 1.4vh;
+    }
+}
+@media screen and (max-width:1024px) {
+    #introText{
+        font-size: 1.5vh;
+    }
+    #jumboTron{
+        font-size: 2.2vh;
+        //background-color: red;
+        margin-bottom: -1vh;
+        margin-top: -1vh;
+    }
+    #prestiz {
+        font-size: 1.6vh;
+        margin-bottom: -1.5vh;
+    }
+    #userExperiance {
+        //background-color: orange;
+        font-size: 1.6vh;
+    }
+    #prednostiPristupa{
+        margin-bottom: -4vh;
+        font-size: 2.1vh
+    }
+    #ikoniceTekst {
+        font-size: 1.6vh;
     }
     #footer {
         font-size: 1.4vh;
