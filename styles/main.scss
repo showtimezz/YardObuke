@@ -33,7 +33,7 @@ p{
         flex-shrink: 0.2;
         img{
            
-            max-width:16vw;
+            max-width:13vw;
             margin: 20px;
             
             
@@ -75,7 +75,7 @@ p{
     max-width: 40%;
     text-align: center;
     margin: auto;
-    font-size: 2.11vh;
+    font-size: 1.9vh;
     font-weight: bold;
 
 }
@@ -164,7 +164,7 @@ p{
         background-color: transparentize($color: teal, $amount: .4);
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 1.3vh 2vw;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -173,4 +173,27 @@ p{
         }
     }
     
+}
+@media screen and (max-width:1680) {
+    #introText{
+        font-size: 1.6vh;
+    }
+    #jumboTron{
+        font-size: 3vh;
+    }
+    #prestiz {
+        font-size:2vh;
+    }
+    #userExperiance {
+        font-size: 1.5vhs;
+    }
+    #prednostiPristupa{
+        font-size: 2.5vh
+    }
+    #ikoniceTekst {
+        font-size: 2vh;
+    }
+    #footer {
+        font-size: 1.6vh;
+    }
 }
