@@ -20,6 +20,7 @@ body {
    background-position: center;
    background-size: cover;
    font-family: $font;
+   
 }
 p{
     color: $pureWhite;
@@ -174,6 +175,8 @@ p{
     }
     
 }
+/*DESKTOP RESPONSIVENESS */
+
 @media screen and (max-width:1680px) {
     #introText{
         font-size: 1.6vh;
@@ -279,3 +282,5 @@ p{
         font-size: 1.4vh;
     }
 }
+/*DESKTOP RESPONSIVENESS END*/
+/*MOBILE RESPONSIVENESS*/
