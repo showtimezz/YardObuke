@@ -60,6 +60,7 @@ p{
              text-decoration: none;
          }
          ul{
+             margin-bottom:30px;
              padding-right:100px;
              list-style-type: none;
              li{
@@ -142,7 +143,9 @@ p{
     padding: 0;
     background-color: transparentize(#000, .4);
     ul {
+
         margin:auto;
+        //margin-top: 20px;
         list-style-type: none;
         a {
             text-decoration: none;
@@ -175,6 +178,12 @@ p{
         display: inline-block;
         font-size: 2vh;
         margin: 20px;
+        a{
+            color: $pureWhite;
+        }
+        a:hover {
+            text-decoration: none;
+        }
         }
     }
     
